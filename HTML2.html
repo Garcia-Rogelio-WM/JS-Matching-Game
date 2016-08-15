@@ -20,16 +20,16 @@
 
     var con = false;
 
-    function genface(){
-        while (con = false){
-
-            var left = math.random()*499;
-            math.floor(left);
-
-            var element = document.createElement(src,"http://vignette4.wikia.nocookie.net/clubpenguin/images/2/2d/Illuminati.png/revision/latest?cb=20150117022611");
-
+    function generateFaces() {
+        var numberOfFaces = 5;
+        var leftside = document.getElementById("leftSide");
+        for (i = 0; i < numberOfFaces; ++ i) {
+            illum = document.createElement("img");
+            illum.src = "http://vignette4.wikia.nocookie.net/clubpenguin/images/2/2d/Illuminati.png/revision/latest?cb=20150117022611";
+            illum.style.top = Math.floor(Math.random() * 401) + "px";
+            illum.style.left = Math.floor(Math.random() * 401) + "px";
+            illum.appendChild(illum);
         }
-
     }
 </script>
 </body>

@@ -5,6 +5,7 @@
     width: 500px;
    border-left: solid black 1px;
     position: absolute;
+
 }
 #leftside{
     height: 500px;
@@ -12,4 +13,9 @@
 
     position: absolute;
 
+}
+img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
 }
